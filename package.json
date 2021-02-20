@@ -1,0 +1,20 @@
+{
+  "name": "quotes-by-poets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NaveenThurimerla/quotes-by-poets.git"
+  },
+  "keywords": [],
+  "author": "Naveen Thurimerla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NaveenThurimerla/quotes-by-poets/issues"
+  },
+  "homepage": "https://github.com/NaveenThurimerla/quotes-by-poets#readme"
+}
