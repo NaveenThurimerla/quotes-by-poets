@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/NaveenThurimerla/quotes-by-poets/issues"
   },
-  "homepage": "https://github.com/NaveenThurimerla/quotes-by-poets#readme"
+  "homepage": "https://github.com/NaveenThurimerla/quotes-by-poets#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
