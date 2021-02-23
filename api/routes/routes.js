@@ -3,6 +3,6 @@ module.exports = (app) => {
 
     app.route('/quotes')
 		.get(quoteList.list_all_quotes)
-        .post(quoteList.create_a_quote);
+    .post(quoteList.create_a_quote);
 
 };

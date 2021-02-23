@@ -4,7 +4,7 @@ Quote = mongoose.model('Quotes');
 
 
 exports.list_all_quotes = (req, res) => {
-    Quote.find({}, function(err, quote) {
+    Quote.find({}, {author:1, quote:1, _id:0}, function(err, quote) {
     if (err)
       res.send(err);
     res.json(quote);
